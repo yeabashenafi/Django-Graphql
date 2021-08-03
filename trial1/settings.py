@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'myapi',
     'rest_framework',
+    'Quizes',
     'graphene_django',
     'django.contrib.admin',
     'django.contrib.auth',
