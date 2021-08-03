@@ -12,5 +12,6 @@ class Query(graphene.ObjectType):
 
     def resolve_all_heroes(root, info):
         return Hero.objects.all()
+        #return Hero.objects.filter(title="Superman")
 
 schema = graphene.Schema(query=Query)
