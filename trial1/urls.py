@@ -26,5 +26,6 @@ router.register('Hero',HeroViewSet)
 urlpatterns = [
     path('',include(router.urls)),
     path('heroes/',include('myapi.urls')),
+    path('second/',include('Quizes.urls')),
     path('admin/', admin.site.urls),
 ]
